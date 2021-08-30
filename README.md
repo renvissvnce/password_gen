@@ -21,14 +21,24 @@ First of all we using 3 modules:
   
 First two of them we use for generate password. We randomize subsequence of our password and length we will input by ourself. So it's very simple. String module contains ASCII is a character encoding standard for electronic communication. Below is the list of string constants you can use to get a different set of characters as a source for creating a random string. 
 
-Constant	              Description
+Constant                Description
+
 ascii_lowercase	        Contain all lowercase letters
+
 ascii_uppercase	        Contain all uppercase letters
+
 ascii_letters	          Contain both lowercase and uppercase letters
+
 digits	                Contain digits ‘0123456789’.
+
 punctuation	            All special symbols !”#$%&'()*+,-./:;<=>?@[\]^_`{|}~.
+
 whitespace	            Includes the characters space, tab, linefeed, return, formfeed, and vertical tab [^ \t\n\x0b\r\f]
+
 printable	              characters that are considered printable. This is a combination of constants digits, letters, punctuation, and whitespace.
+
+
+
 
 The argparse module makes it easy to write user-friendly command-line interfaces.
 
