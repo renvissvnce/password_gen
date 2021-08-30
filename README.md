@@ -1,4 +1,4 @@
-password_gen - is simple script for generation password by using Python3 and his modules. There is just one python file. Let me explain how it works.
+  password_gen - is simple script for generation password by using Python3 and his modules. There is just one python file. Let me explain how it works.
 
 
 usage: pass_gen [-h] [--name NAME] [--length LENGTH]
@@ -14,12 +14,12 @@ optional arguments:
 
 
 
-First of all we using 3 modules: 
-  1. string
-  2. random
-  3. argparse
+  First of all we using 3 modules: 
+    1. string
+    2. random
+    3. argparse
   
-First two of them we use for generate password. We randomize subsequence of our password and length we will input by ourself. So it's very simple. String module contains ASCII is a character encoding standard for electronic communication. Below is the list of string constants you can use to get a different set of characters as a source for creating a random string. 
+  First two of them we use for generate password. We randomize subsequence of our password and length we will input by ourself. So it's very simple. String module contains ASCII is a character encoding standard for electronic communication. Below is the list of string constants you can use to get a different set of characters as a source for creating a random string. 
 
 
 
@@ -40,13 +40,13 @@ printable - characters that are considered printable. This is a combination of c
 
 
 
-The argparse module makes it easy to write user-friendly command-line interfaces.
+  The argparse module makes it easy to write user-friendly command-line interfaces.
 
-As you can see, we have 2 functions:
-  - ppg
-  - main
+  As you can see, we have 2 functions:
+    - ppg
+    - main
 
-Our 'ppg' (python password generator) function is generation password and takes two parametrs (name - username, for which we generate password and length - for length of generated password).
+  Our 'ppg' (python password generator) function is generation password and takes two parametrs (name - username, for which we generate password and length - for length of generated password).
 Function 'main'uses argparse module. We create parser at first string of function, them ArgumentParse object will hold all the info necessary to paste command line into python data types. After that we adding arguments. Fillin an AP(ArgumentParser) with info about program arguments is done by making call to the add-argument() method. Generally AP calls tells AP how to take the strings on the command line and turn them into objects. Them parse_args() argument parcing info which was written into command line.
 
 * For execute script from ant directory we should write path where python3 is located. For to do that:
