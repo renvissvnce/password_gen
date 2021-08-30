@@ -23,7 +23,7 @@ First two of them we use for generate password. We randomize subsequence of our 
 
 
 
-ascii_lowercase - Contain all lowercase letters
+ascii_lowercase - 	Contain all lowercase letters
 
 ascii_uppercase - Contain all uppercase letters
 
