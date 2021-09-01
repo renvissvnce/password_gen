@@ -1,4 +1,4 @@
-  password_gen - is simple script for generation password by using Python3 and his modules. There is just one python file. Let me explain how it works.
+password_gen - is simple script for generation password by using Python3 and his modules. There is just one python file. Let me explain how it works.
 
 
 usage: pass_gen [-h] [--name NAME] [--length LENGTH]
@@ -6,22 +6,22 @@ usage: pass_gen [-h] [--name NAME] [--length LENGTH]
 Python password generate
 
 optional arguments:
-  -h, --help            show this help message and exit
-  --name NAME, -n NAME  Line for input username
-  --length LENGTH, -l LENGTH
-                        Line for input password length
+
+ -h, --help show this help message and exit.
+ 
+ --name NAME, -n NAME Line for input username.
+ 
+ --length LENGTH, -l LENGTH Line for input password length.
 
 
 
 
   First of all we using 3 modules: 
-    1. string
-    2. random
-    3. argparse
+  1. string
+  2. random
+  3. argparse
   
   First two of them we use for generate password. We randomize subsequence of our password and length we will input by ourself. So it's very simple. String module contains ASCII is a character encoding standard for electronic communication. Below is the list of string constants you can use to get a different set of characters as a source for creating a random string. 
-
-
 
 ascii_lowercase - 	Contain all lowercase letters
 
@@ -36,9 +36,6 @@ punctuation - All special symbols !”#$%&'()*+,-./:;<=>?@[\]^_`{|}~.
 whitespace - Includes the characters space, tab, linefeed, return, formfeed, and vertical tab [^ \t\n\x0b\r\f]
 
 printable - characters that are considered printable. This is a combination of constants digits, letters, punctuation, and whitespace.
-
-
-
 
   The argparse module makes it easy to write user-friendly command-line interfaces.
 
